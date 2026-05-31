@@ -1,0 +1,36 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Azure and other secrets
+config.py
+*.key
+*.pem
+
+# Project outputs
+results/
+checkpoints/
+*.tif
+*.tiff
+*.pkl
+*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
